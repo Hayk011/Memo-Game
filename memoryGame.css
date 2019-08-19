@@ -1,0 +1,74 @@
+body {
+    background-color: #f6f4f1;
+  }
+  .first-container {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 600px;
+    height: 500px;
+    /* background-color: #fff; */
+  }
+  .card_container {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .card_container_2 {
+    margin-top: 131px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .card_container_3 {
+    margin-top: 258px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .card_container_4 {
+    margin-top: 400px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .card {
+    /* width: 50px;
+    height: 50px; */
+    position: relative;
+    perspective: 1000px;
+  }
+  .front,
+  .back {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  .front {
+    background-color: #fff;
+  }
+  .back {
+    background-color: blue;
+    transform: rotateY(180deg);
+  }
+   /* .card:hover .front{transform: rotateY(180deg);}   
+.card:hover .back{transform: rotateY(360deg);}    */
